@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "33aca534-04e0-403c-893e-97a336b48a96",
+            "Value": {
+                "id": "7773cabc-34c4-4df4-be84-3c5c6b08b634",
+                "resourcePath": "objects\\obj_ui_toggle_button\\obj_ui_toggle_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "b39a102d-6316-47d5-8372-61f2de8a52a7",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "714af498-049e-4b55-9b52-4c3f3a0197c2",
+            "Value": {
+                "id": "46878065-77fb-4602-8e68-f9b54284ff4f",
+                "resourcePath": "objects\\obj_ui\\obj_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "756a9e04-373d-416f-ae5b-f8f4e4725d1d",
             "Value": {
                 "id": "af8b214b-8023-4fa9-a18d-ec4da6cda956",
@@ -260,6 +276,14 @@
                 "id": "31b161ed-a8b8-4b99-9d5a-6de387d246b0",
                 "resourcePath": "sprites\\spr_obst\\spr_obst.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "81d1a4ba-2fdb-4eae-ba46-82a265253fb4",
+            "Value": {
+                "id": "ca0e982e-a5e6-4b76-843e-2f376cd9125c",
+                "resourcePath": "views\\81d1a4ba-2fdb-4eae-ba46-82a265253fb4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "c3d0d649-2130-482c-b963-21c4e841bfa1",
+            "Value": {
+                "id": "cb728e48-827b-4bbb-a41d-b6b48e46a243",
+                "resourcePath": "objects\\obj_ui_button\\obj_ui_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c5d5362c-eb81-4b2f-8950-0f51f56f92a6",
             "Value": {
                 "id": "c77b9dbd-5ad8-421c-b5d6-3a837c27272a",
@@ -436,6 +468,14 @@
                 "id": "b4cfcb89-73e4-4143-8420-8f10b4ee5a33",
                 "resourcePath": "views\\d8cadb47-0d95-4d02-83f8-541843330f54.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9b57ea8-173f-4d05-990a-54245aa78f10",
+            "Value": {
+                "id": "05076689-8fdb-4bfd-b54e-f64bb77fc91b",
+                "resourcePath": "objects\\obj_sys\\obj_sys.yy",
+                "resourceType": "GMObject"
             }
         },
         {

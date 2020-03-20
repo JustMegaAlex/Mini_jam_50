@@ -3,11 +3,12 @@
 x += lengthdir_x(argument0, argument1)
 y += lengthdir_y(argument0, argument1)
 
-//столкновение с астероидами
+//// solid objects collision
 var obst = instance_place(x, y, obj_obstacle)
 if obst {
+	// box pushing
 	if obst.object_index == obj_box {
-		var _side = false
+		var _side = false // which side to push to
 		var _x = x
 		var _y = y
 		while place_meeting(x, y, obst) {
@@ -25,8 +26,8 @@ if obst {
 		if collision_point(scr_x(_i), scr_y(_j), obj_parent_solid, false, true) {
 			return
 		}
-		obst.x += (_x - x)*!_side
-		obst.y += (_y - y)*_side
+		obst.x += (_x - x)*!_side * 1.2
+		obst.y += (_y - y)*_side * 1.2
 		obst.i += !_side*h_move
 		obst.j += _side*v_move
 		x = _x
