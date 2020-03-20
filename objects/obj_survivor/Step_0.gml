@@ -14,11 +14,13 @@ down_free = !place_meeting(x,y+1,obj_obstacle)
 up_free = !place_meeting(x,y-1,obj_obstacle)
 
 //// movement
-h_move = key_right * right_free - key_left * left_free
-v_move = key_down * down_free - key_up * up_free
+//h_move = key_right * right_free - key_left * left_free
+//v_move = key_down * down_free - key_up * up_free
 
-if(abs(h_move) || abs(v_move))
-{
+h_move = key_right - key_left
+v_move = key_down - key_up
+
+if(abs(h_move) || abs(v_move)) {
     dir = point_direction(0,0,h_move,v_move)
 	scr_move_contact(sp, dir)
 }
@@ -33,6 +35,7 @@ var pick_up = instance_place(hand_x, hand_y, obj_parent_pickable)
 if !pick_up
 	pick_up = instance_place(scr_x(hand_i), scr_y(hand_j), obj_parent_pickable)
 
+
 if key_interact {
 	if item = noone {
 		if pick_up {
@@ -46,7 +49,6 @@ if key_interact {
 	}
 }
 	
-
 
 
 

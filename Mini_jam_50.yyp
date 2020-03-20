@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "4471e573-516c-487a-a2de-d4e9d68601e8",
+            "Value": {
+                "id": "b8b84296-88cb-4323-888a-bea4778a0664",
+                "resourcePath": "sprites\\spr_box\\spr_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44df5a12-20e6-4bc6-94fc-4d2172b57d4a",
             "Value": {
                 "id": "28a9233e-fda7-4ce6-a4b8-bfd36c4c2932",
@@ -260,6 +268,14 @@
                 "id": "7d79aead-68d6-4351-a364-56f05eca0791",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "84e512cf-635e-46a8-b4be-a625eb9e9221",
+            "Value": {
+                "id": "14e32bff-9ac9-4aff-8db7-cef6c0b7f89a",
+                "resourcePath": "objects\\obj_box\\obj_box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
