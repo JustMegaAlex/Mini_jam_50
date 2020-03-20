@@ -13,9 +13,10 @@
         "117ea414-2032-402e-860a-7b563664dc71",
         "756a9e04-373d-416f-ae5b-f8f4e4725d1d",
         "a0c3fac4-9603-4af9-9d38-65188f834b1d",
-        "cba38ae2-acaa-40b1-b10a-30972349bf13",
         "44df5a12-20e6-4bc6-94fc-4d2172b57d4a",
-        "c5d5362c-eb81-4b2f-8950-0f51f56f92a6"
+        "cba38ae2-acaa-40b1-b10a-30972349bf13",
+        "c5d5362c-eb81-4b2f-8950-0f51f56f92a6",
+        "eb5badac-c2c1-47da-8a09-6bd31b2d7d26"
     ],
     "filterType": "GMScript",
     "folderName": "sys",
