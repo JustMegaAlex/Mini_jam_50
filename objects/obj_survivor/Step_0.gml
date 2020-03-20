@@ -6,6 +6,7 @@ key_right = keyboard_check(vk_right)
 key_left = keyboard_check(vk_left)
 key_up = keyboard_check(vk_up)
 key_down = keyboard_check(vk_down)
+key_interact = keyboard_check_pressed(ord("Z"))
 
 left_free = !place_meeting(x-1,y,obj_obstacle)
 right_free = !place_meeting(x+1,y,obj_obstacle)
@@ -21,3 +22,28 @@ if(abs(h_move) || abs(v_move))
     dir = point_direction(0,0,h_move,v_move)
 	scr_move_contact(sp, dir)
 }
+
+
+hand_x = x + lengthdir_x(pick_up_dist, dir)
+hand_y = y + lengthdir_y(pick_up_dist, dir)
+var pick_up = instance_place(hand_x, hand_y, obj_pickable)
+
+if key_interact
+	if item = noone {
+		if pick_up {
+			item = pick_up
+			item.state = scr_picked_up
+		}
+	}
+	else {
+		item.state = scr_stub
+		item = noone
+	}
+	
+
+
+
+
+
+
+
