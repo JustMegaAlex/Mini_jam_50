@@ -2,7 +2,7 @@
 image_speed = 0
 
 //// moving
-sp = 2
+sp = 2.5
 dir = 0
 
 //// interacting
@@ -12,5 +12,6 @@ pick_up_dist = 10
 item = noone
 
 //// grid
-cell_w = 20
-cell_h = 14
+cell_w = 32
+cell_h = 32
+global.GRID_SIZE = cell_w

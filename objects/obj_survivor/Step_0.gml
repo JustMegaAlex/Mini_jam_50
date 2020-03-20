@@ -24,21 +24,27 @@ if(abs(h_move) || abs(v_move))
 }
 
 
-hand_x = x + lengthdir_x(pick_up_dist, dir)
-hand_y = y + lengthdir_y(pick_up_dist, dir)
-var pick_up = instance_place(hand_x, hand_y, obj_pickable)
+hand_x = x //+ lengthdir_x(pick_up_dist, dir)
+hand_y = y //+ lengthdir_y(pick_up_dist, dir)
+hand_i = round(x / global.GRID_SIZE)
+hand_j = round(y / global.GRID_SIZE)
+var pick_up = instance_place(hand_x, hand_y, obj_parent_pickable)
 
-if key_interact
+if !pick_up
+	pick_up = instance_place(scr_x(hand_i), scr_y(hand_j), obj_parent_pickable)
+
+if key_interact {
 	if item = noone {
 		if pick_up {
 			item = pick_up
-			item.state = scr_picked_up
+			with item { event_perform(ev_other, ev_user0) }
 		}
 	}
 	else {
-		item.state = scr_stub
+		with item { event_perform(ev_other, ev_user0) }
 		item = noone
 	}
+}
 	
 
 
