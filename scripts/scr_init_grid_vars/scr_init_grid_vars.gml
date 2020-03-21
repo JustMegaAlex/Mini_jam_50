@@ -1,8 +1,7 @@
 
 sp = obj_survivor.sp
 
-i = round(x / global.GRID_SIZE)
-j = round(y / global.GRID_SIZE)
+scr_update_i_j()
 
 x = scr_x(i)
 y = scr_x(j)

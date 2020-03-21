@@ -7,6 +7,7 @@ key_left = keyboard_check(vk_left)
 key_up = keyboard_check(vk_up)
 key_down = keyboard_check(vk_down)
 key_interact = keyboard_check_pressed(ord("Z"))
+key_use_item = keyboard_check_pressed(ord("C"))
 
 left_free = !place_meeting(x-1,y,obj_obstacle)
 right_free = !place_meeting(x+1,y,obj_obstacle)
@@ -28,12 +29,9 @@ if(abs(h_move) || abs(v_move)) {
 
 hand_x = x //+ lengthdir_x(pick_up_dist, dir)
 hand_y = y //+ lengthdir_y(pick_up_dist, dir)
-hand_i = round(x / global.GRID_SIZE)
-hand_j = round(y / global.GRID_SIZE)
-var pick_up = instance_place(hand_x, hand_y, obj_parent_pickable)
+scr_update_i_j()
 
-if !pick_up
-	pick_up = instance_place(scr_x(hand_i), scr_y(hand_j), obj_parent_pickable)
+var pick_up = instance_place(scr_x(i), scr_y(j), obj_parent_pickable)
 
 
 if key_interact {
@@ -49,7 +47,10 @@ if key_interact {
 	}
 }
 	
-
+if key_use_item
+	if item {
+		with item { event_perform(ev_other, ev_user1) }
+	}
 
 
 

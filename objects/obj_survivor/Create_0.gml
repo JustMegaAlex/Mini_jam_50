@@ -8,6 +8,8 @@ dir = 0
 //// interacting
 hand_x = x
 hand_y = y
+i = 0
+j = 0
 pick_up_dist = 10
 item = noone
 
