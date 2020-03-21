@@ -1,8 +1,8 @@
 {
-    "id": "d00721f2-d6c1-4a9b-8dd2-5cb08e2d717a",
+    "id": "6fec44d7-e7f1-4b1e-b264-20e780c57b7f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pit",
+    "name": "obj_ui_draw_point",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "22bc062c-9008-4fc0-99b9-591b1d713a3f",
-    "visible": true
+    "spriteId": "938ddfe0-183a-47ed-84ab-96de4a56dbc2",
+    "visible": false
 }

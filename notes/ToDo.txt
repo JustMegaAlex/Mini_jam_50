@@ -1,4 +1,6 @@
 
+--> pickupable shovel
+
 > fix sticking to obst
 
 > day/night transition

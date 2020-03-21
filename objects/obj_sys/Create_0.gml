@@ -30,5 +30,10 @@ display_set_gui_size(window_get_width(), window_get_height())
 var view_w = view_get_wport(view_camera[0])
 var view_h = view_get_hport(view_camera[0])
 
+//// inventory
+inventory = ds_list_create()
+inventory[| 0] = obj_shovel
+space_betw_items = 200
+
 //// ini of debug scripts' vars
 scr_debug_INI()

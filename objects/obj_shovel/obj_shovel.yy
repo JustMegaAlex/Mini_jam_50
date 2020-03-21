@@ -1,8 +1,8 @@
 {
-    "id": "d00721f2-d6c1-4a9b-8dd2-5cb08e2d717a",
+    "id": "f8ea674f-1d3c-4ac6-927b-47ded053fe5e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pit",
+    "name": "obj_shovel",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "22bc062c-9008-4fc0-99b9-591b1d713a3f",
+    "spriteId": "b984fa34-9e06-4f77-8ad8-740b27a5dae4",
     "visible": true
 }
