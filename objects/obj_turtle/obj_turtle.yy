@@ -1,14 +1,14 @@
 {
-    "id": "4a225cb1-7719-4baf-808a-45243ae15067",
+    "id": "b7bae976-55b2-4bb9-8e61-56366a021560",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_invis_obstacle",
+    "name": "obj_turtle",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8c46c0a8-185c-4498-bf0e-a204be131488",
+    "parentObjectId": "cadd589f-7595-4ab7-bc73-e825985ef972",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2d3c4e25-2f57-4f6c-aa56-ab7f038e5032",
-    "visible": false
+    "spriteId": "4bbd9175-044d-4a19-9225-63db85824ec6",
+    "visible": true
 }

@@ -1,2 +1,9 @@
 
->> fix sticking to obst
+> fix sticking to obst
+
+> day/night transition
+> a partner npc
+> food-puzzle: turtle
+> hidden areas
+> ui bittons (sound on/off)
+> music
