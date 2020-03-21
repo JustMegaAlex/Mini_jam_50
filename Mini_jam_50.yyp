@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "09bb7e92-af40-4cf0-95c2-c33d9699f8bc",
+            "Value": {
+                "id": "0c22fdf3-10d7-44ae-ba99-74cca7970fc4",
+                "resourcePath": "sprites\\spr_island_day\\spr_island_day.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "117ea414-2032-402e-860a-7b563664dc71",
             "Value": {
                 "id": "775d7d99-7db8-49b5-bb7d-63ff56ca3460",
@@ -116,6 +124,14 @@
                 "id": "f5e62e79-4c59-4172-a869-1bc7eef9a757",
                 "resourcePath": "scripts\\scr_debug_scripts_update\\scr_debug_scripts_update.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2d3c4e25-2f57-4f6c-aa56-ab7f038e5032",
+            "Value": {
+                "id": "b9e0ed83-1f3a-47bd-b768-b6e2fb980fb8",
+                "resourcePath": "sprites\\spr_island_bound\\spr_island_bound.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "9402a613-6e01-4569-a96f-7bfbd55e2c67",
                 "resourcePath": "scripts\\scr_cicle_val\\scr_cicle_val.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6145442f-b89b-4847-b3f6-88c2bcf6e679",
+            "Value": {
+                "id": "9fd3666b-9a61-4236-b83d-b237352b02e0",
+                "resourcePath": "sprites\\spr_island_night\\spr_island_night.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -524,6 +548,14 @@
                 "id": "13e990fb-5036-4285-a027-7d2cb5ceea35",
                 "resourcePath": "scripts\\scr_camer_set_center\\scr_camer_set_center.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e3e908d5-699e-4be2-96c7-ee896b220aaa",
+            "Value": {
+                "id": "e380a90c-383f-4c91-a93b-8798f8f92b86",
+                "resourcePath": "paths\\path0\\path0.yy",
+                "resourceType": "GMPath"
             }
         },
         {
