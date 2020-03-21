@@ -7,3 +7,5 @@
 > hidden areas
 > ui bittons (sound on/off)
 > music
+
+> cant place pickupable sound
