@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "7ed20e95-58af-4ebd-831a-9a32c86c9b8c",
+            "Value": {
+                "id": "9bd1a8af-dc74-44e1-b01b-ec40cf6cfc7a",
+                "resourcePath": "objects\\obj_scary_stone\\obj_scary_stone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ffef6b7-28a5-4b23-8349-3abb636b58cf",
             "Value": {
                 "id": "31b161ed-a8b8-4b99-9d5a-6de387d246b0",
@@ -460,6 +468,14 @@
                 "id": "39b217e4-0943-4d04-b79d-14052f2389d3",
                 "resourcePath": "objects\\obj_turtle\\obj_turtle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bbb9b0a3-a7bb-49d7-9494-5423c51fe288",
+            "Value": {
+                "id": "f7991876-8781-4390-92a3-4e94ccc33bd3",
+                "resourcePath": "sprites\\spr_scary_stone\\spr_scary_stone.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
