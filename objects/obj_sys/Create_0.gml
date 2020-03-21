@@ -9,6 +9,7 @@ enum Sys_ui{
 ui_part = Sys_ui.normal
 ui_mouse_over_obj = noone	// is affected by ui elements
 ui_controller = noone	//
+ui_view = view_camera[0]
 
 //draw_set_font(fnt_ui)
 

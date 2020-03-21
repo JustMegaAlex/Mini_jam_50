@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "b1a913e5-0a7f-4f78-a228-9b29832e165e",
+            "Value": {
+                "id": "b6a7da29-9ac8-41d9-a80d-2aee70ecf8fd",
+                "resourcePath": "objects\\obj_ui_dialog_box\\obj_ui_dialog_box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b446396b-fff4-47bf-9c59-324235768166",
             "Value": {
                 "id": "13bb9431-e690-416e-8b7e-3ceaf885567c",
@@ -583,6 +591,14 @@
             }
         },
         {
+            "Key": "d75da12f-fa9f-4873-a0b2-59bd6ee9e70c",
+            "Value": {
+                "id": "986aad94-eefc-4f11-a277-d60880861985",
+                "resourcePath": "fonts\\fnt_dialog\\fnt_dialog.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d83a6601-2c57-493e-b6b7-ed351f97f473",
             "Value": {
                 "id": "6de9bfb0-8f40-4ffc-88e0-5c2883b3d80f",
@@ -692,6 +708,14 @@
                 "id": "1f0a9cae-2a1d-40de-b631-ae8304cb6f05",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f471af39-668d-4a2b-b193-05c3b0603e3f",
+            "Value": {
+                "id": "a53b4ac4-9734-42ea-9b12-3648e1263d05",
+                "resourcePath": "sprites\\spr_dialog_box\\spr_dialog_box.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
