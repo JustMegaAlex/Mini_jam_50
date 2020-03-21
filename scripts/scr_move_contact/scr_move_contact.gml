@@ -39,4 +39,25 @@ if obst {
         x -= lengthdir_x(1, dir)
         y -= lengthdir_y(1, dir)
 	}
+	return
+}
+
+//island bounds
+for(i=0; i<bound_point_num-1; i++) {
+	while collision_line(arr_bound_x[i], 
+						arr_bound_y[i], 
+						arr_bound_x[i+1], 
+						arr_bound_y[i+1], 
+						id, false, false) {
+		x -= lengthdir_x(1, dir)
+		y -= lengthdir_y(1, dir)	
+	}
+}
+while collision_line(arr_bound_x[0], 
+						arr_bound_y[0], 
+						arr_bound_x[bound_point_num-1], 
+						arr_bound_y[bound_point_num-1], 
+						id, false, false) {
+	x -= lengthdir_x(1, dir)
+	y -= lengthdir_y(1, dir)	
 }

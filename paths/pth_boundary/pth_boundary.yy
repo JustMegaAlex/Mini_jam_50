@@ -2,7 +2,7 @@
     "id": "e3e908d5-699e-4be2-96c7-ee896b220aaa",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "path0",
+    "name": "pth_boundary",
     "closed": true,
     "hsnap": 0,
     "kind": 0,

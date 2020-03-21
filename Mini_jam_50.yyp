@@ -554,7 +554,7 @@
             "Key": "e3e908d5-699e-4be2-96c7-ee896b220aaa",
             "Value": {
                 "id": "e380a90c-383f-4c91-a93b-8798f8f92b86",
-                "resourcePath": "paths\\path0\\path0.yy",
+                "resourcePath": "paths\\pth_boundary\\pth_boundary.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -632,13 +632,6 @@
         }
     ],
     "script_order": [
-        "96fe9e90-6a35-4ded-9690-100156d024b1",
-        "51f0d3cd-01bf-46ee-aeb9-5268a6d9a3df",
-        "7ec2fe9a-17bf-47d2-85b5-db57e7e88b66",
-        "24fe39d1-f086-4139-8c47-09ceb419475c",
-        "dbe527a9-8842-4409-85a4-ffa205bba1e5",
-        "b446396b-fff4-47bf-9c59-324235768166",
-        "5014a2fd-b48e-498d-a4e8-5350a8f2b451",
         "25dda54f-51db-4f00-9de2-18fbd74c2a07",
         "438de0ef-a2d4-4eac-aaba-625156f78048",
         "58ea199e-60c2-40a1-b6e4-1da0fa21c30f",
@@ -651,7 +644,14 @@
         "44df5a12-20e6-4bc6-94fc-4d2172b57d4a",
         "cba38ae2-acaa-40b1-b10a-30972349bf13",
         "c5d5362c-eb81-4b2f-8950-0f51f56f92a6",
-        "eb5badac-c2c1-47da-8a09-6bd31b2d7d26"
+        "eb5badac-c2c1-47da-8a09-6bd31b2d7d26",
+        "96fe9e90-6a35-4ded-9690-100156d024b1",
+        "7ec2fe9a-17bf-47d2-85b5-db57e7e88b66",
+        "51f0d3cd-01bf-46ee-aeb9-5268a6d9a3df",
+        "24fe39d1-f086-4139-8c47-09ceb419475c",
+        "dbe527a9-8842-4409-85a4-ffa205bba1e5",
+        "b446396b-fff4-47bf-9c59-324235768166",
+        "5014a2fd-b48e-498d-a4e8-5350a8f2b451"
     ],
     "tutorial": ""
 }
