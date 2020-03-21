@@ -32,6 +32,9 @@ if obst {
 		obst.j += _side*v_move
 		x = _x
 		y = _y
+		//// if it's scary stone
+		if obst.object_index == obj_scary_stone
+			with obj_turtle { event_perform(ev_other, ev_user0) }
 		return
 	}
 	//// move out of obst
