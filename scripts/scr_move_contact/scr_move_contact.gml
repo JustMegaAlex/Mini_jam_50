@@ -7,7 +7,7 @@ y += lengthdir_y(argument0, argument1)
 var obst = instance_place(x, y, obj_obstacle)
 if obst {
 	// box pushing
-	if obst.object_index == obj_box {
+	if object_is_ancestor(obst.object_index, obj_parent_movable)  {
 		var _side = false // which side to push to
 		var _x = x
 		var _y = y
@@ -20,21 +20,18 @@ if obst {
 			_side = true
 			y -= lengthdir_y(1, dir)
 		}
-		//// horizontal contact
 		var _i = obst.i+!_side*h_move
 		var _j = obst.j+_side*v_move
-		if collision_point(scr_x(_i), scr_y(_j), obj_parent_solid, false, true) {
-			return
-		}
+		
+		if !scr_try_set_grid_pos(_i, _j, obst) { return }
+		
 		obst.x += (_x - x)*!_side * 1.2
 		obst.y += (_y - y)*_side * 1.2
-		obst.i += !_side*h_move
-		obst.j += _side*v_move
 		x = _x
 		y = _y
 		//// if it's scary stone
 		if obst.object_index == obj_scary_stone
-			with obj_turtle { event_perform(ev_other, ev_user0) }
+			with obj_turtle { alarm[0] = move_delay }
 		return
 	}
 	//// move out of obst

@@ -14,5 +14,4 @@ else if abs(dist_x) > abs(dist_y)
 else
 	dir_x = sign(dist_x)
 
-i += dir_x
-j += dir_y
+scr_try_set_grid_pos(i+dir_x, j+dir_y)

@@ -1,1 +1,1 @@
-depth = -y
+event_inherited()
