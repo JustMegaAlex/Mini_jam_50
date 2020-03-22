@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_trigger",
     "eventList": [
-        
+        {
+            "id": "2d6c7b77-4d1a-41ea-ab2a-8176e6306523",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "33d7e529-030b-42cf-90d9-1a29e44b6793"
+        },
+        {
+            "id": "74fbfba9-0ca6-4d6f-a464-5e8050ab6391",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "33d7e529-030b-42cf-90d9-1a29e44b6793"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -48,7 +67,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "\"arr_start\"",
-            "varName": "dialog",
+            "varName": "arr_dialog",
             "varType": 2
         }
     ],
