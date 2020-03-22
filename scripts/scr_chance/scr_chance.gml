@@ -1,2 +1,2 @@
 ///@arg chance
-return (random(1) < argument0);
+return (random(1) < argument0)

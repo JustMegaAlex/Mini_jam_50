@@ -9,5 +9,6 @@
 > hidden areas
 > ui bittons (sound on/off)
 > music
+> shadows
 
 > cant place pickupable sound
