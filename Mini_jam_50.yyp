@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "dce79f0a-964e-4656-8ca5-0149027779ef",
+            "Value": {
+                "id": "173c0a83-8fce-4514-88a5-ee2c553e6d9c",
+                "resourcePath": "sprites\\scr_scary_stone\\scr_scary_stone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de3bcdb5-3125-4b61-9ba2-a0eca1dc7816",
             "Value": {
                 "id": "b03f5d75-93f0-44ff-a2f5-844732ef316e",
