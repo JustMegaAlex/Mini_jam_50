@@ -3,7 +3,13 @@ viewport_ratio = view_wport[0]/camera_get_view_width(obj_sys.ui_view)
 text_displ_x = -sprite_xoffset + 25
 text_displ_y = -sprite_yoffset + 30
 
+text_sep = font_get_size(fnt_dialog) + 10
+text_width = sprite_width - 20
+text = ""
+
 //// dialogs arrays
+arr_current = 0
+str_current = 0
 
 arr_start = [
 	"Finally! I thought you're dead",
