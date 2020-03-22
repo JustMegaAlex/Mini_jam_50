@@ -39,11 +39,14 @@ if keyboard_check_pressed(ord("E")) {
 	audio_sound_gain(snd_night_theme, sound_max_gain*its_daytime, sound_transition_time)
 }
 
+if room == room0 and keyboard_check_pressed(vk_numpad2)
+	room_goto(room1)
 
+if room == room1 and keyboard_check_pressed(vk_numpad1)
+	room_goto(room0)
+	
+if keyboard_check_pressed(vk_f5)
+	game_save(save_file)
 
-
-
-
-
-
-
+if keyboard_check_pressed(vk_f6) and file_exists(save_file)
+	game_load(save_file)

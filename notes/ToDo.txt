@@ -1,10 +1,17 @@
 
 First:
+> finish level design
+> time flow and day reset
+> fix box moving
 
 > fix sticking to obst
 > hidden areas
 > ui bittons (sound on/off)
 > shadows
 > "press space"
+> add various dialogs
+> npc moving
+> campfire
+> menu buttons
 
 > cant place pickupable sound

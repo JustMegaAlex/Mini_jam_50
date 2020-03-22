@@ -39,10 +39,12 @@ space_betw_items = 200
 
 //// sound
 audio_play_sound(snd_day_theme, 0, true)
-sound_max_gain = audio_sound_get_gain(snd_day_theme)
+sound_max_gain = audio_sound_get_gain(snd_day_theme)*0
 sound_transition_time = 2000
 audio_play_sound(snd_night_theme, 0, true)
 audio_sound_gain(snd_night_theme, 0, 0)
+
+audio_sound_gain(snd_day_theme, 0, 0)
 
 //// background
 its_daytime = true
@@ -51,3 +53,6 @@ bgr_transition_sp = 0.02
 
 //// ini of debug scripts' vars
 scr_debug_INI()
+
+//// save file
+save_file = "save.dat"
