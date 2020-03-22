@@ -8,7 +8,7 @@ text_displ_y = -sprite_yoffset + 30
 talking_object = obj_partner_npc
 
 text_sep = font_get_size(fnt_dialog) + 10
-text_width = sprite_width - 20
+text_width = sprite_width - 30
 text = ""
 
 //// dialogs arrays
