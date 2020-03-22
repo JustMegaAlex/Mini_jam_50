@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_cactus",
     "eventList": [
-        
+        {
+            "id": "54f7734f-445c-4629-b86e-8f78b36dcf29",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2810ee26-17c1-453e-9c8b-0f4b18a95e8b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

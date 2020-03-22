@@ -6,14 +6,15 @@ dir_y = 0
 dir = point_direction(scary.i, scary.j, i, j)
 dir = dir div 90 * 90
 
-var can_move = false
-
-if scr_grid_occupied(i + lengthdir_x(1, dir), j + lengthdir_y(1, dir))
-	dir += 0
-else if !scr_grid_occupied(i + lengthdir_x(1, dir+90), j + lengthdir_y(1, dir+90))
-	dir += 90
-else if !scr_grid_occupied(i + lengthdir_x(1, dir-90), j + lengthdir_y(1, dir-90))
-	dir -= 90
+if !scr_grid_occupied(i + lengthdir_x(1, dir), j + lengthdir_y(1, dir)) 
+	or (scr_grid_occupied(i + lengthdir_x(1, dir), j + lengthdir_y(1, dir)).object_index == obj_cactus)
+		dir += 0
+else if !scr_grid_occupied(i + lengthdir_x(1, dir+90), j + lengthdir_y(1, dir+90)) 
+	or (scr_grid_occupied(i + lengthdir_x(1, dir+90), j + lengthdir_y(1, dir+90)).object_index == obj_cactus)
+		dir += 90
+else if !scr_grid_occupied(i + lengthdir_x(1, dir-90), j + lengthdir_y(1, dir-90)) 
+	or (scr_grid_occupied(i + lengthdir_x(1, dir-90), j + lengthdir_y(1, dir-90)).object_index == obj_cactus)
+		dir -= 90
 else 
 	return false
 
