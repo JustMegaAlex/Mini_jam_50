@@ -1,7 +1,5 @@
 
 First:
-> partner npc
-> dialogs
 > day/night transition
 
 > fix sticking to obst
