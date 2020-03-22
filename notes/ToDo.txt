@@ -1,6 +1,5 @@
 
 First:
-> music
 > find socoban levels and make the whole level rough
 > partner npc
 > dialogs
