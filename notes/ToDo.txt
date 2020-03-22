@@ -7,7 +7,6 @@ First:
 > fix sticking to obst
 > hidden areas
 > ui bittons (sound on/off)
-
 > shadows
 
 > cant place pickupable sound

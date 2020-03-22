@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "33d7e529-030b-42cf-90d9-1a29e44b6793",
+            "Value": {
+                "id": "5e0e7e4d-cae3-44e1-b6ad-66f8ce1d612c",
+                "resourcePath": "objects\\obj_trigger\\obj_trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "b39a102d-6316-47d5-8372-61f2de8a52a7",
@@ -420,6 +428,14 @@
                 "id": "04643bd0-2ccd-4f92-98cd-55bb969698d5",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "7cc9cfcb-5bd3-4053-b21d-701bb7f98a98",
+            "Value": {
+                "id": "d9cda447-e633-4d40-8223-61d896b78c39",
+                "resourcePath": "sprites\\spr_trigger\\spr_trigger.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -668,6 +684,14 @@
                 "id": "c77b9dbd-5ad8-421c-b5d6-3a837c27272a",
                 "resourcePath": "scripts\\scr_y\\scr_y.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c86527e4-b8d8-400a-9f3c-1ce94aac0354",
+            "Value": {
+                "id": "d19ed165-09a5-46ba-acd1-8f3fd697c86d",
+                "resourcePath": "datafiles_yy\\dialogs.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
