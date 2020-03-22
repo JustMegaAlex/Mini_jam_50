@@ -1,6 +1,6 @@
 
-x = (obj_survivor.x - camera_get_view_x(obj_sys.ui_view))*viewport_ratio
-y = (obj_survivor.y - camera_get_view_y(obj_sys.ui_view))*viewport_ratio
+x = (talking_object.x - camera_get_view_x(obj_sys.ui_view))*viewport_ratio
+y = (talking_object.y - camera_get_view_y(obj_sys.ui_view))*viewport_ratio
 
 if keyboard_check_pressed(vk_space) {
 	str_current++
