@@ -8,5 +8,6 @@ First:
 > hidden areas
 > ui bittons (sound on/off)
 > shadows
+> "press space"
 
 > cant place pickupable sound

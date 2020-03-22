@@ -52,9 +52,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "trig_obj",
-            "varType": 0
+            "value": "\"\"",
+            "varName": "trig_obj_name",
+            "varType": 2
         },
         {
             "id": "c9630c03-15ff-4c20-8b27-c188a328a92f",
