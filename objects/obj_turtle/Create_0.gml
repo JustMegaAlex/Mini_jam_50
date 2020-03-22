@@ -14,3 +14,5 @@ dir_y = 0
 dir = 0
 
 move_delay = 20
+
+moving = false

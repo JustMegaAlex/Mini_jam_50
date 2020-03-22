@@ -47,9 +47,23 @@ audio_sound_gain(snd_night_theme, 0, 0)
 audio_sound_gain(snd_day_theme, 0, 0)
 
 //// background
+day_phase_time = room_speed*60
+night_phase_time = room_speed*6
+day_reset_time = room_speed*2
 its_daytime = true
 bgr_id = layer_background_get_id(layer_get_id("Bgr_day"))
 bgr_transition_sp = 0.02
+alarm[1] = day_phase_time
+day_reset = false
+
+//// black transition surface
+trans_surf = surface_create(view_w, view_h)
+surface_set_target(trans_surf)
+var color = c_white
+draw_rectangle_color(0, 0, view_w, view_h, color, color, color, color, false)
+surface_reset_target()
+trans_surf_alpha = 0
+trans_surf_sp = 1/day_reset_time
 
 //// ini of debug scripts' vars
 scr_debug_INI()

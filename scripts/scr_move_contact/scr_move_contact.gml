@@ -8,6 +8,7 @@ var obst = instance_place(x, y, obj_obstacle)
 if obst {
 	// box pushing
 	if object_is_ancestor(obst.object_index, obj_parent_movable)  {
+		
 		var _side = false // which side to push to
 		var _x = x
 		var _y = y
@@ -23,7 +24,13 @@ if obst {
 		var _i = obst.i+!_side*h_move
 		var _j = obst.j+_side*v_move
 		
+		var test = obst.alarm[0]
+		
+		if obst.alarm[0] { return }
+		
 		if !scr_try_set_grid_pos(_i, _j, obst) { return }
+		
+		with obst {alarm[0] = move_delay}
 		
 		obst.x += (_x - x)*!_side * 1.2
 		obst.y += (_y - y)*_side * 1.2

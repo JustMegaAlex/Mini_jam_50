@@ -38,3 +38,13 @@ arr_shovel_found = [
 	"Oh, nice",
 	"We can dig a couple of graves with it, huh?"
 ]
+
+arr_nigth_time = [
+	"The night is coming...",
+	"Quite cold, let's get to fire"
+]
+
+arr_after_reset = [
+	"Finally! I thought you're dead",
+	"Do you remember what happened?..."
+]
