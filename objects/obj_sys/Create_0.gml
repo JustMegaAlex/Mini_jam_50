@@ -7,6 +7,7 @@ enum Sys_ui{
 	normal,			//
 	//dialog,			//
 }
+
 ui_part = Sys_ui.normal
 ui_mouse_over_obj = noone	// is affected by ui elements
 ui_controller = noone	//
@@ -38,6 +39,11 @@ space_betw_items = 200
 
 //// sound
 //audio_play_sound(snd_day_theme, 0, true)
+
+//// background
+its_daytime = true
+bgr_id = layer_background_get_id(layer_get_id("Bgr_day"))
+bgr_transition_sp = 0.02
 
 //// ini of debug scripts' vars
 scr_debug_INI()

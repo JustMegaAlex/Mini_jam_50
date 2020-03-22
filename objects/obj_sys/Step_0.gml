@@ -32,3 +32,18 @@ switch ui_part {
 		}
 	}
 }
+
+//// bgr
+var alpha = layer_background_get_alpha(bgr_id)
+layer_background_alpha(bgr_id, scr_approach(alpha, its_daytime, bgr_transition_sp))
+
+
+
+
+
+
+
+
+
+
+
