@@ -1,14 +1,14 @@
 {
-    "id": "4a225cb1-7719-4baf-808a-45243ae15067",
+    "id": "2810ee26-17c1-453e-9c8b-0f4b18a95e8b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_invis_obstacle",
+    "name": "obj_cactus",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8c46c0a8-185c-4498-bf0e-a204be131488",
+    "parentObjectId": "cadd589f-7595-4ab7-bc73-e825985ef972",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2d3c4e25-2f57-4f6c-aa56-ab7f038e5032",
+    "spriteId": "ec4e77c3-96de-4d9d-8cb6-a77eb509f5d1",
     "visible": true
 }

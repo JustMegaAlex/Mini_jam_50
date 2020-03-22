@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2810ee26-17c1-453e-9c8b-0f4b18a95e8b",
+            "Value": {
+                "id": "2b82de64-38bb-49dc-b239-b3fd1739cbee",
+                "resourcePath": "objects\\obj_cactus\\obj_cactus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a72d09c-b884-4342-9c8a-41e561dc9cf4",
             "Value": {
                 "id": "f5e62e79-4c59-4172-a869-1bc7eef9a757",
@@ -754,7 +762,7 @@
             "Key": "dce79f0a-964e-4656-8ca5-0149027779ef",
             "Value": {
                 "id": "173c0a83-8fce-4514-88a5-ee2c553e6d9c",
-                "resourcePath": "sprites\\scr_scary_stone\\scr_scary_stone.yy",
+                "resourcePath": "sprites\\spr_scary_stone\\spr_scary_stone.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -807,6 +815,14 @@
             }
         },
         {
+            "Key": "ec4e77c3-96de-4d9d-8cb6-a77eb509f5d1",
+            "Value": {
+                "id": "bfef8638-7f09-42b3-b3b9-98d960df49f4",
+                "resourcePath": "sprites\\spr_cactus\\spr_cactus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee10456f-28d5-4a75-99de-80b23a855caa",
             "Value": {
                 "id": "d13270d9-6abd-4be6-8f50-924d7d10da42",
@@ -818,7 +834,7 @@
             "Key": "ee7b2cde-5d1f-4104-9907-d2ce06aedee0",
             "Value": {
                 "id": "63929e2e-d43f-403d-abfa-9b5a2d8572f5",
-                "resourcePath": "scripts\\scr_grid_free\\scr_grid_free.yy",
+                "resourcePath": "scripts\\scr_grid_occupied\\scr_grid_occupied.yy",
                 "resourceType": "GMScript"
             }
         },
