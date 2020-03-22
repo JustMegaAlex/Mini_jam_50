@@ -1,6 +1,6 @@
 //////////init gameplay
 //// ui
-window_set_fullscreen(true)
+//window_set_fullscreen(true)
 // ui parts enum
 enum Sys_ui{
 	menu,			// obj_sys controlled states
