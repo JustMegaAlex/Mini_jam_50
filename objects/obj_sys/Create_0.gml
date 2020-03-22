@@ -35,5 +35,8 @@ inventory = ds_list_create()
 inventory[| 0] = obj_shovel
 space_betw_items = 200
 
+//// sound
+audio_play_sound(snd_day_theme, 0, true)
+
 //// ini of debug scripts' vars
 scr_debug_INI()

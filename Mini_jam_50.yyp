@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "31bdb8fb-be30-4cca-98d1-420757466b0c",
+            "Value": {
+                "id": "d283c8e7-c3d5-4c33-9631-9a66a03f3838",
+                "resourcePath": "sounds\\snd_day_theme\\snd_day_theme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "31e65cb4-3311-445b-bf98-bc8ea22d007a",
             "Value": {
                 "id": "33da279a-dfdf-42eb-9150-3184385cd2a0",
@@ -548,6 +556,14 @@
                 "id": "44464f5b-1ca4-4bf5-a0f5-8513fa2c2a34",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ae8fc5b7-ee16-42aa-af08-db6113b3b840",
+            "Value": {
+                "id": "bd5f5ba7-8287-4e09-87ba-8485622c43be",
+                "resourcePath": "sounds\\snd_night_theme\\snd_night_theme.yy",
+                "resourceType": "GMSound"
             }
         },
         {
