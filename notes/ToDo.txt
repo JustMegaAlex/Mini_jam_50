@@ -1,6 +1,5 @@
 
 First:
-> day/night transition
 
 > fix sticking to obst
 > hidden areas

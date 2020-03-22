@@ -38,7 +38,11 @@ inventory[| 0] = obj_shovel
 space_betw_items = 200
 
 //// sound
-//audio_play_sound(snd_day_theme, 0, true)
+audio_play_sound(snd_day_theme, 0, true)
+sound_max_gain = audio_sound_get_gain(snd_day_theme)
+sound_transition_time = 2000
+audio_play_sound(snd_night_theme, 0, true)
+audio_sound_gain(snd_night_theme, 0, 0)
 
 //// background
 its_daytime = true

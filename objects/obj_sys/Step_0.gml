@@ -33,11 +33,11 @@ switch ui_part {
 	}
 }
 
-//// bgr
-var alpha = layer_background_get_alpha(bgr_id)
-layer_background_alpha(bgr_id, scr_approach(alpha, its_daytime, bgr_transition_sp))
-
-
+if keyboard_check_pressed(ord("E")) {
+	alarm[0] = 1
+	audio_sound_gain(snd_day_theme, sound_max_gain*!its_daytime, sound_transition_time)
+	audio_sound_gain(snd_night_theme, sound_max_gain*its_daytime, sound_transition_time)
+}
 
 
 
