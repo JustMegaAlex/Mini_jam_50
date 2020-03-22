@@ -6,6 +6,8 @@ scr_init_grid_vars()
 
 scary = obj_scary_stone
 
+image_speed = 0
+
 dir_x = 0
 dir_y = 0
 
